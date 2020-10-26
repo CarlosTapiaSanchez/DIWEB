@@ -1,0 +1,36 @@
+body{
+    background-color:#D8D2D0;
+    font-size: 18px;;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: gray;
+    color: white;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding-left: 1%;
+}
+
+img{
+    float: left;
+    margin-left: 180px;
+}
+
+p{
+    margin-right: 400px;
+    margin-left: 330px; 
+    text-align: justify;
+    text-indent: 45px;
+}
+
+.rojo{
+    color: red;
+}
+.blanco{
+    font-weight: bold;
+    background-color: white;
+}
