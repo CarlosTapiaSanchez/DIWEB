@@ -1,0 +1,48 @@
+body{
+    background-color: #BEBFB4;
+}
+
+h1{
+    color: #191E73;
+    font-size: 3em;
+    text-align: right;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.65em;
+    text-align: justify;
+}
+
+#SantaMaria{
+    float: left;
+}
+
+#Uno{
+    float: left;
+    margin-right: 10px;
+}
+
+#SantaCroce{
+    float: left;
+}
+
+#Dos{
+    display: block;
+    margin: auto;
+}
+
+#Novella{
+    float: right;
+}
+
+#Tres{
+    float: right;
+}
+
+h2{
+    background-color: #5D6336;
+    color: white;
+    font-size: 2.5em;
+}
