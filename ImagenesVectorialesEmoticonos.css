@@ -1,0 +1,51 @@
+body{
+    background-color: #FEF8E6;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+}
+
+p{
+    font-size: 2em;
+    clear: both;
+}
+
+#primeraImagen{
+    display: block;
+    margin: auto;
+}
+
+hr{
+    height: 4px;
+    background-color: black;
+    width: 60%;
+}
+
+div{
+    background-color: #EEEEEE;
+    border: solid;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-bottom: 4%;
+}
+
+#iconoSonrisa{
+    float: left;
+    width: 5em;
+    margin-right: 1%;
+}
+
+.iconos{
+    width: 6em;
+}
+
+address{
+    font-size: 2em;
+}
