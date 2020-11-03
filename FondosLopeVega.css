@@ -1,0 +1,46 @@
+body{
+    background: url("fondos/corazon-1.svg") repeat-y top left, url("fondos/corazon-2.svg") repeat-y right top;
+    background-size: 150px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #F2DFE4;
+}
+
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 1%;
+}
+
+div p{
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+#caja1{
+    background-image: url(fondos/manchas.png);
+    color: white;
+}
+
+#caja2{
+    background: url("fondos/fuego.svg") no-repeat bottom right, 
+    url("fondos/fuego.svg") no-repeat bottom left, url("fondos/tallos.jpg");
+    color: #F2CB05;
+}
+
+#caja3{
+    background:  url("fondos/ojo.svg") no-repeat center, url("fondos/hexagonos.jpg");
+    color: #8C0303;
+    background-size: contain;
+}
+
+#caja4{
+    background: url("fondos/caballo.svg") repeat-x bottom, url("fondos/estrellas.png") repeat;
+    background-size: auto;
+    background-size: 100px;
+    color: #025908;
+}
+
