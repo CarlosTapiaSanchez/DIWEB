@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Fuente";
+    src: url("../fonts/monoton.woff2");
+  }
+
+body{
+    background: url("../img/matrix.png") repeat-y top left, url("../img/matrix2.png") repeat-y right top ;
+    background-size: 100px;
+    background-color: black;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#cabecera{
+    font-family: "Fuente";
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #05BB05;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    border-bottom: solid;
+    border-color: #05BB05;
+    margin-bottom: 2%;
+}
+
+h2{
+    background-color: #05C705;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0%;
+    letter-spacing: 0.5em;
+    
+}
+
+.cajones{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.05em;
+    margin-bottom: 2%;
+}
+
+#imagen1{
+    float: right;
+    margin-left: 1%;
+}
+
+#imagen2{
+    float: left;
+    margin-right: 1%;
+}
+
+#imagen3{
+    float: right;
+    margin-left: 1%;
+}
+
+p{
+    padding: 1%;
+}
+
+time{
+    color: green;
+}
+
+span{
+    color: yellow;
+}
+
+em{
+    color: red;
+    font-style: normal;
+}
+
+#pie{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    border-top: solid;
+    border-color: #05BB05;
+    padding-top: 1%;
+}
