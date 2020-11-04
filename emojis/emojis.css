@@ -1,0 +1,29 @@
+body{
+    margin-left: 31.5%;
+    margin-right: 31.5%;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+img{
+    width: 100px;
+}
+
+em{
+    font-weight: bolder;
+    font-style: normal;
+}
+
+span{
+    color:#4A82F6;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: monospace;
+}
+
+.iconos{
+    font-size: 2em;
+}
