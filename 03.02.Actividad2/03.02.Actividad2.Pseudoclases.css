@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 1%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1+h2{
+    color: #F2809F;   
+}
+
+h2::first-letter{
+    color: #F21313;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 3%;
+}
+
+li:nth-child(3){
+    color: lime;
+}
+
+li:hover:nth-child(2n)::after{
+    content: "  Somos elementos pares";
+}
+
+li:hover:nth-child(2n+1)::before{
+    content: " Somos elementos imparesn  ";
+}
+
