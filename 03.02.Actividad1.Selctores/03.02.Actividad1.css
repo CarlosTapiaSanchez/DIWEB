@@ -31,5 +31,31 @@ a[rel="alternate"]::after {
 }
 
 a[rel="next"]::before{
+    content: url(Suma.PNG);
+
+}
+
+a[rel="tag"]::before{
+    content: url(Carrito.PNG);
+
+}
+
+a[rel="bookmark"]::before{
+    content: url(Estrella.PNG);
+
+}
+
+a[rel="help"]::before{
+    content: url(pdf.PNG);
+
+}
+
+a[rel="search"]::before{
     content: url(Captura.PNG);
+
+}
+
+a[rel="nofollow"]::before{
+    content: url(Escudo.PNG);
+
 }

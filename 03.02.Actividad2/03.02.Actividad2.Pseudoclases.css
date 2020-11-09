@@ -30,6 +30,6 @@ li:hover:nth-child(2n)::after{
 }
 
 li:hover:nth-child(2n+1)::before{
-    content: " Somos elementos imparesn  ";
+    content: " Somos elementos impares  ";
 }
 
