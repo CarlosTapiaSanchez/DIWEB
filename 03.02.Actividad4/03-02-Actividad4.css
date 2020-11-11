@@ -1,0 +1,66 @@
+.container{
+    position: relative;
+  }
+  body{
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  .caja{
+    width: 180px;
+    height: 180px;
+    background-color: #30B037;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+    transition: background-color, transform;
+    transition-duration: 2s;
+  }
+
+  .caja1:hover{
+    background-color: #BF2C2C;
+    transform:scale(0.5);
+  }
+  .caja2:hover{
+    background-color: #A360BF;
+    transform: rotate(350deg);
+  }
+  .caja3:hover{
+    background-color: #2980B9;
+    transform: skew(15deg, 15deg);
+  }
+  .caja4:hover{
+    background-color: #3498DB;
+    transform: skewX(15deg);
+  }
+  .caja5:hover{
+    background-color: #1BA67E;
+    transform: skewY(15deg);
+  }
+  .caja6:hover{
+    background-color: #F1C40F;
+    transform: translate(20px,20px);
+  }
+  .caja7:hover{
+    background-color: #D96523;
+    transform: translateX(20px);
+  }
+  .caja8:hover{
+    background-color: #95A5A6;
+    transform: translateY(20px);
+  }
+  .caja9:hover{
+    background-color: #2C3E50;
+    transform: perspective(200px) rotateY(45deg);
+  }
+  .caja10:hover{
+    background-color: #95A5A6;
+    transform: perspective(200px) rotateX(45deg);
+  }
+  .caja11:hover{
+    background-color: #000000;
+    transform: matrix(1, 2, -1, 1, 80, 80);
+  }
