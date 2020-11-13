@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    padding:0;
+    border:0;
+    background-color: #F2CB05;
+}
+ 
+.imagen1 {
+    position:relative;
+    background: url("Catedral.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+     
+}
+ 
+.imagen2 {
+    position:relative;
+    background: url("Castillo.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px; 
+}
+ 
+.imagen3 {
+    position:relative;
+    background: url("cruz.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px; 
+}
+ 
+h1 {
+    color: #F2CB05;
+    font-size: 80px;
+    text-align:center;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -400px;
+    opacity:0.8;
+}
+ 
+h2{
+    color: #fff;
+    font-size: 55px;
+    text-align:center;
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    opacity:0.8;
+}
+ 
+.parrafos {
+    color: black;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    background: #F2CB05;
+    z-index:2;
+ 
+}
