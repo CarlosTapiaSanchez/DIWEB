@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+nav div{
+    margin-right: 7%;
+}
+
+.sidebar{
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    margin-top: 2%;
+    margin-right: 3%;
+    height: 520px;
+}
+
+.sidebar div{
+    margin-top: 17%;
+}
+
+.course{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1%;
+    text-align: center;
+
+}
+
+.courses{
+    display: flex;
+    flex-direction: row;
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    margin-left: 13%;
+    margin-top: 2%;
+
+}
+
+.articles article{
+    width: 25%;
+    margin-right: 2.5%;
+}
+
+footer{
+    background-color: gray;
+    padding: 1%;
+    text-align: center;
+    margin-top: 5%;
+}
