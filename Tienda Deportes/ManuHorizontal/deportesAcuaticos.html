@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/index.css">
+    <title>Tienda de Deportes</title>
+</head>
+<body>
+    <header>
+        <div id="cajaLogotipo">
+            <img src="../Imagenes/Logotipo.jpg" alt="Logotipo de point sport" id="logotipo">
+        </div>
+        <div id="superiorDerecha">
+            <input type="search" name="buscarProducto" id="buscarProducto" placeholder="Buscar producto">
+            <input type="button" name="inicioSesion" id="inicioSesion" value="Inicar Sesión" onclick="location.href='../Login/Login.html'">
+            <div id="imagenesHeader">
+                <img src="../imagenes/Carrito.PNG" alt="carrito de la compra" id="carrito">
+                <img src="../Imagenes/banderaEspañola.jpg" alt="bandera de España" id="España">
+                <img src="../Imagenes/BanderaInglesa.png" alt="bandera de Ingleterra" id="Inglaterra">
+            </div>
+        </div>
+    </header>
+    <div id="contenedor">
+        <nav>
+            <ul id="menuHorizontal">
+                <li class="categoria">
+                <a href="../Index.html">Inicio</a>
+                </li>
+                <li class="categoria">
+                    <a href="deportePelota.html">Deportes de pelota</a>
+                </li>
+                <li class="categoria">
+                    <a href="Ciclismo.html">Ciclismo</a>
+                </li>
+                <li class="categoria">
+                    <a href="deportesAcuaticos.html" id="pestañaActual">Deportes acuáticos</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="Izquierda">
+            <nav>
+                <ul id="menuVertical">
+                    <li class="categoria">
+                    <a href="../MenuVertical/Polideportivos.html">Polideportivos</a>
+                    </li>
+                    <li class="categoria">
+                        <a href="../MenuVertical/ActividadesAcuaticas.html">Actividades acuáticas</a>
+                    </li>
+                    <li class="categoria">
+                        <a href="../MenuVertical/RutasCiclismo.html">Rutas de ciclismo</a>
+                    </li>
+                    <li class="categoria">
+                        <a href="../MenuVertical/eventosDeportivos.html">Próximos eventos deportivos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="parteCentral">
+
+            <div class="articulosOferta">
+                <img src="../imagenes/tablaSurf.jpg" alt="Bicicleta">
+                <h4>OFERTA 220€</h4>
+                <input type="button" value="Ver producto" onclick="location.href='#productoOferta1'">
+                <div id="productoOferta1" class="modal">
+                    <div class="modal-contenido">
+                      <a href="#">Cerrar</a>
+                      <div class="Lorem">
+                            <img src="../imagenes/tablaSurf.jpg" alt="Bicicleta">
+                            <p>La tabla de surf DHD Twin Fin ha sido diseñada para ofrecer máxima diversión 
+                            en condiciones de verano. Con un diseño inspirado en los modelos Twin Fin de 
+                            Mark Richards, un poco de nostalgia y un toque moderno hace que sea una tabla 
+                            perfecta para surfear olas de 0,5 m a 1,5 m.</p>
+                        </div>
+                      <input type="button" value="Comprar">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="articulosOferta">
+                <img src="../Imagenes/tablaSurf2.jpg" alt="Bicicleta">
+                <h4>400€</h4>
+                <input type="button" value="Ver producto" onclick="location.href='#productoOferta2'">
+                <div id="productoOferta2" class="modal">
+                    <div class="modal-contenido">
+                      <a href="#">Cerrar</a>
+                      <div class="Lorem">
+                            <img src="../imagenes/tablaSurf2.jpg" alt="Bicicleta">
+                            <p>La tabla de surf Aurrera de FrusSurf es la tabla perfecta para un surfer que 
+                            lleva dos o tres años con una evolutiva y quiere subir su nivel. El nombre 
+                            Aurrera viene de Aurrerapena, que significa Progresión en euskera. Es por tanto 
+                            una surfboard para progresar.</p>
+                        </div>
+                      <input type="button" value="Comprar">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="articulosOferta">
+                <img src="../imagenes/tablaSurf3.jpg" alt="Tabla de surf">
+                <h4>750€</h4>
+                <input type="button" value="Ver producto" onclick="location.href='#productoOferta3'">
+                <div id="productoOferta3" class="modal">
+                    <div class="modal-contenido">
+                      <a href="#">Cerrar</a>
+                      <div class="Lorem">
+                            <img src="../imagenes/tablaSurf3.jpg" alt="Tabla de surf">
+                            <p>Tabla de surf de espuma 100 7'. se entrega con una correa y quillas.</p>
+                        </div>
+                      <input type="button" value="Comprar">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="articulosOferta">
+                <img src="../imagenes/gafasBuceo.jpg" alt="Zapatillas de fútbol">
+                <h4>40€</h4>
+                <input type="button" value="Ver producto" onclick="location.href='#productoOferta4'">
+                <div id="productoOferta4" class="modal">
+                    <div class="modal-contenido">
+                      <a href="#">Cerrar</a>
+                      <div class="Lorem">
+                            <img src="../imagenes/gafasBuceo.jpg" alt="Zapatillas de fútbol">
+                            <p>Máscara para el buceo y el relajamiento avanzado, diseñado para ofrecer una 
+                            forma hidrodinámica y compacta para ayudar a los buceadores a cortar el agua y 
+                            movimientos de ayuda en espacios pequeños</p>
+                        </div>
+                      <input type="button" value="Comprar">
+                    </div>  
+                </div>
+            </div>
+
+            <div class="articulosOferta">
+                <img src="../imagenes/trajeBuceo.jpg" alt="Pala de padel">
+                <h4>80€</h4>
+                <input type="button" value="Ver producto" onclick="location.href='#productoOferta5'">
+                <div id="productoOferta5" class="modal">
+                    <div class="modal-contenido">
+                      <a href="#">Cerrar</a>
+                      <div class="Lorem">
+                            <img src="../imagenes/trajeBuceo.jpg" alt="Pala de padel">
+                            <p>Forro exterior mixto nylon-ultraspan en las zonas de las articulaciones, que 
+                            combina una buena resistencia a la erosión con una gran elasticidad y suavidad al 
+                            tacto</p>
+                        </div>
+                      <input type="button" value="Comprar">
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="articulosOferta">
+                <img src="../imagenes/cayak.jpg" alt="Raqueta de tenis">
+                <h4>420€</h4>
+                <input type="button" value="Ver producto" onclick="location.href='#productoOferta6'">
+                <div id="productoOferta6" class="modal">
+                    <div class="modal-contenido">
+                      <a href="#">Cerrar</a>
+                      <div class="Lorem">
+                            <img src="../imagenes/cayak.jpg" alt="Raqueta de tenis">
+                            <p>Este es el kayak de mar más versátil del mercado a un precio muy competitivo. 
+                            Equipado con escotillas de almacenamiento y un espacio para el equipaje trasero, 
+                            para su día familiar o una expedición de pesca, este kayak lo tiene todo.</p>
+                        </div>
+                      <input type="button" value="Comprar">
+                    </div>  
+                </div>
+            </div>
+
+        </div>
+            
+        <div id="Publicidad">
+            <a href="https://www.billabong.es/"><img src="../imagenes/anuncioBillabong.jpg" alt="anuncio Orbea"></a>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footerIzquierda">
+            <a href="https://www.facebook.com/Pointsports"><img src="../imagenes/facebook.jpg" alt="icono de Facebook"></a>
+            <a href="https://twitter.com/pointsport_?lang=es"><img src="../imagenes/twitter.png" alt="icono de Twitter"></a>
+            <a href="https://www.instagram.com/pointsport_/"><img src="../imagenes/instagram.png" alt="icono de Instagram"></a>
+        </div>
+        <div id="footerCentral">
+            <h3>CONTACTA CON NOSOTROS</h3>
+            <address>
+                <p>Dirección: Calle Andalucía nº30, Málaga</p>
+                <p>Email: pointSport@gmail.com</p>
+                <p>Teléfono:600123456</p>
+            </address>
+        </div>
+        <div id="footerDerecha">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1600.7574372723388!2d-4.690926444018693!3d36.63806238451031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e70311c13467%3A0xf439ccec2c6539be!2sPoint%20Sport!5e0!3m2!1ses!2ses!4v1607094347729!5m2!1ses!2ses" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
