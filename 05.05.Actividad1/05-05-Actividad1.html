@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/05-05-Actividad1.css">
+    <title>05.05.Actividad1</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-3 columna1">
+                <div class="row logotipo">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><img class="img-fluid" src="Imagenes/logotipo.jpg" alt=""></div>
+                </div>
+                <div class="row bg-info parrafo">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <blockquote class="blockquote">
+                            <p>Cumplimentar el formulario de registro para poder 
+                                disponer de todos los servicios de la web</p>
+                            <footer class="blockquote-footer">Web de servicios</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg col-md col-sm-12 col-xs-12 ml-3 mt-3">
+                <div class="row titulo"><h1>Formulario de registro</h1></div>
+
+                <form class="mt-3 formulario">
+                    <div class="form-group  row mt-3">
+                        <label for="usuario" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-form-label mt-4">Usuario:</label>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mt-4">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>                    
+                    </div> 
+
+                    <div class="form-group row">
+                        <label for="email" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-form-label mt-4">Email:</label>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mt-4">
+                            <input type="email" class="form-control" placeholder="email">
+                        </div>                    
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="contraseña" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-form-label mt-4">Contraseña:</label>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mt-4">
+                            <input type="password" class="form-control" placeholder="contraseña">
+                        </div>                    
+                    </div> 
+
+                    <div class="form-group row">
+                        <label for="sexo" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-form-label mt-3">Sexo:</label>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 mt-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="radioSexo" value="opcion1">
+                                <label class="form-check-label">Hombre</label>
+                            </div>
+                            <div class="form-check form-check-inline ml-5">
+                                <input class="form-check-input" type="radio" name="radioSexo" value="opcion2">
+                                <label class="form-check-label">Mujer</label>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <label for="sexo" class="col-lg-9 col-md-9 col-form-label mt-3">Seleccionar foto de perfil:</label>
+                            <input type="file" class="form-control text-white bg-secondary " placeholder="Seleccionar archivo">
+                        </div>                   
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-lg-11 col-md-11 mt-4">
+                            <button type="submit" class="btn btn-primary" id="Registrar">Registrar</button>
+                        </div>                    
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
